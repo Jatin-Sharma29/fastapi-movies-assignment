@@ -9,6 +9,7 @@ class MovieUpdate(BaseModel):
     genre:str
     language:str
     release_year:int
+    is_available:bool
 
 movies = [
  {
@@ -17,7 +18,8 @@ movies = [
  "director": "Rajkumar Hirani",
  "genre": "Comedy Drama",
  "language": "Hindi",
- "release_year": 2009
+ "release_year": 2009,
+ "is_available": True
  },
  {
  "id": 2,
@@ -25,7 +27,8 @@ movies = [
  "director": "S S Rajamouli",
  "genre": "Action Drama",
  "language": "Telugu",
- "release_year": 2015
+ "release_year": 2015,
+ "is_available": True
  }
 ]
 
