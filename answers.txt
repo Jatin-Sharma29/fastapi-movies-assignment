@@ -1,0 +1,10 @@
+Question: A short explanation of why the movie ID should come from the URL instead of
+the request body
+
+Answer: Movie IDs should come from the URL instead of the request body because the URL is 
+designed to represent the resource being modified.
+
+Question: A short explanation of why PUT should not increase the number of records
+
+Answer: Put request is used to update an existing resource and not create a new
+one so it should not increase the number of records. 
